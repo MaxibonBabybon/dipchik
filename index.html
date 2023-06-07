@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЖКХ</title>
+  <script src="js/js.js"></script>
+  
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+<div class="container">
+<div class="header_title">
+  <img src="img/logo1.png" alt="logo" class="logo" >
+  <div class="line"></div>
+  <div class="line2"></div>
+  
+  
+    </div> 
+  </div>
+  <div class="logo2" ></div>
+  <div class="logo3" ></div>
+  <button class="primary-button"></button>
+  <nav>
+    <a href="#zayvka">
+  <button class="primary-button2" > отправить заявку</button>
+  </a>
+  </nav>
+  <a class="info1">Контакты:<br>
+Единая диспетчерская служба: 9-33-33<br>
+Приемная: 9-91-91<br>
+Факс: 9-92-11</a>
+  </header>
+
+  <section class="about">
+    <div class="onas">
+      <div class="container">
+        <div class="about_grid">
+          <h1 class="about_h1">О нас</h1>
+          <h2 class="text">МНОГОЛЕТНИЙ СТАЖ ПО УПРАВЛЕНИЮ И СОДЕРЖАНИЮ МНОГОКВАРТИРНЫХ ДОМОВ.<br>
+                Наша управляющая компания предоставляет комплексный сервис в области управления, технического обслуживания и эксплуатации жилых домов. Многолетний опыт работы и высокий профессионализм специалистов, ориентированность на совершенствование отрасли позволили нам занять лидирующие позиции на рынке города Саров, став самой крупной управляющей компанией и заработать доверие наших клиентов и партнёров</h2>
+              <div class="mii">
+              
+              </div>
+              <div class="square">
+               
+              </div>
+              <h1 class="square2">1</h1>
+              <a href="https://dom.gosuslugi.ru/" target="_blank">
+              <button class="gos" >
+              </button>
+              </a>
+              <div class="line3"></div>
+              <div class="line4"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="activity">
+    <div class="our_activity">
+      <h1 class="activity2">НАША ДЕЯТЕЛЬНОСТЬ</h1>
+      <h2 class="activity3">БОЛЕЕ 580 ДОМОВ В УПРАВЛЕНИИ ОБЩАЯ ПЛОЩАДЬ ПРЕВЫШАЕТ 1,2 МЛН.М./КВ.<br>
+              Основное направление деятельности нашего предприятия -это профессиональное управление многоквартирными домами, административно - производственными зданиями и сооружениями. Имея большой опыт работы, мы знаем и умеем это делать. Квалифицированные опытные специалисты МУП "Центр ЖКХ" ежедневно работают для того, чтобы обеспечить комфортное проживание гражданам города.</h2>
+              <div class="activity_img">
+                <div class="square3">
+                </div>
+                <h1 class="square4">2</h1>
+                <a href="https://xn----itbeqggh1bza.xn--p1ai/" target="_blank">
+                <div class="activity_img3"></div>
+                </a>
+                <div class="activity_img2"></div>
+                <div class="line5"></div>
+              </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="line6"></div>
+    <div class="service"></div>
+    <h1 class="service_text">НАШИ УСЛУГИ</h1>
+    <h2 class="service_text2">Услуги<br>
+Прейскуранты на оказание платных услуг населению
+Услуга<br>
+Телефон для связи,цена:<br>
+Вызов сантехника<br>
+9-33-33<br>
+150 руб<br>
+Вызов электрика<br>
+150 руб<br>
+Опломбирование приборов учета ХВС/ГВС<br>
+9-94-22<br>
+бесплатно<br>
+Опломбирование приборов учета электросчетчиков<br>
+9-94-12<br>
+бесплатно<br>
+<a href="https://жкхсаров.рф/wp-content/uploads/2021/10/Sanitar_texn.doc" target="_blank">
+Другие санитарно-технических услуги</h2>
+</a>
+    <div class="services_img">
+      <a href="https://xn--80aekqvlf5a.xn--p1ai/" target="_blank">
+      <div class="JKH"></div>
+      </a>
+      <div class="square5"></div>
+      <h1 class="service3">3</h1>
+      <div class="service_img2"></div>
+    </div>
+  </section>
+  <section class="podval">
+    <div class="soc">
+      <a href="https://t.me/gkhnewsru" target="_blank">
+      <div class="telegram"></div>
+      </a>
+      <a href="https://vk.com/gkhnews" target="_blank">
+      <div class="vk"></div>
+      </a>
+    </div>
+    <div id="zayvka" class="zayvka32 ">
+      <button onclick="notifSet()" value="Notification" class="zayvka_click">
+        <script>
+  function notifyMe () {
+    var notification = new Notification ("Заявка оставлена", {
+      icon : "https://itproger.com/img/notify.png"
+    });
+  }
+  
+  function notifSet () {
+    if (!("Notification" in window))
+      alert ("Ваш браузер не поддерживает уведомления.");
+    else if (Notification.permission === "granted")
+      setTimeout(notifyMe, 2000);
+    else if (Notification.permission !== "denied") {
+      Notification.requestPermission (function (permission) {
+        if (!('permission' in Notification))
+          Notification.permission = permission;
+        if (permission === "granted")
+          setTimeout(notifyMe, 2000);
+      });
+    }
+  }
+</script>
+        <h1 class="textbutt">
+          Оставить заявку
+
+        </h1>
+      </button>
+      <div class="phone">
+        <h1 class="phone1">
+
+          Номер телефона
+        </h1>
+        <div class="phone3">
+          <input type="tel" name="phonenumber" placeholder="Введите свой номер телефона" class="text6"  >
+        </div>
+      </div>
+      <div class="adress">
+        <h1 class="adres1">Адрес проживания</h1>
+        <div class="adres3">
+          <input type="text" class="text6" name="adres" placeholder="Введите свой адрес проживания">
+        </div>
+      </div>
+
+      <div class="fio1">
+        <input type="text" class="text6" name="ФИО" placeholder="Введите свое фио">
+      </div>
+      <h1 class="fio">ФИО</h1>
+      <div class="mail">
+        <h1 class="mail_2">Электронная почта</h1>
+        <div class="mail_3">
+          <input type="text" class="text6" name="email" placeholder="Введите свою электронную почту">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
